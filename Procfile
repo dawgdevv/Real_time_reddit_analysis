@@ -1,0 +1,1 @@
+Procfile      web: gunicorn dashboard:server --timeout 120 --workers 2

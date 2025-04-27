@@ -86,7 +86,7 @@ app.layout = html.Div(
 app.layout.children.append(
     dcc.Interval(
         id='interval-component',
-        interval=5*1000,  
+        interval=40*1000,  
         n_intervals=0
     )
 )
@@ -217,4 +217,4 @@ def update_graphs(n):
 
 if __name__ == '__main__':
     port = int(os.environ.get("PORT", 8050))
-    app.run(debug=True, host="0.0.0.0", port=port)
+    app.run(debug=False, host="0.0.0.0", port=port,)
