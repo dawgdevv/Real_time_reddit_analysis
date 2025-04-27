@@ -216,4 +216,5 @@ def update_graphs(n):
         return empty_fig, empty_fig, empty_fig, empty_fig, empty_fig, empty_fig, "No Data", "No Data"
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    port = int(os.environ.get("PORT", 8050))
+    app.run(debug=True, host="0.0.0.0", port=port)
