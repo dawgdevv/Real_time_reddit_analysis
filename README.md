@@ -56,10 +56,12 @@ All updated **every 30 seconds**, in **real-time**, without refreshing the page!
 
 ## 📂 Project Structure
 
+```bash
 📦 reddit-realtime-dashboard
-┣ 📜 dashboard.py      # Main Dash app (Dashboard layout, Callbacks, MongoDB integration)
-┣ 📜 requirements.txt  # Python dependencies
-┗ 📜 README.md         # Project documentation
+ ┣ 📜 app.py          # Main Dash app (Dashboard layout, Callbacks, MongoDB integration)
+ ┣ 📜 requirements.txt # Python dependencies
+ ┗ 📜 README.md        # Project documentation
+```
 
 ---
 
