@@ -89,7 +89,7 @@ pip install -r requirements.txt
 3. **Run the app** 🖥️
 
 ```bash
-python app.py
+python dashboard.py
 ```
 
 4.	Open in Browser 🌐
@@ -139,9 +139,10 @@ Highlighted Posts
 ---
 
 ## 🤝 Contributors
-- Kushagra 
 - Dev Verma
 - Nishant Raj
+- Kushagra Gupta
+- Harshita Kumawat
 
 ---
 
