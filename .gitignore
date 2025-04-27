@@ -1,0 +1,66 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# VSCode settings
+.vscode/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Pytest cache
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Data files and checkpoints
+checkpoints/
+processed_data/
+*.parquet
+*.snappy.parquet
+*.crc
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Ignore secrets (edit as needed)
+*.env
+.env.*
+Big_Data/
+kafka/
