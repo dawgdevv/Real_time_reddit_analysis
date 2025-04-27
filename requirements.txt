@@ -3,3 +3,4 @@ dash_daq
 pandas
 plotly
 pymongo
+python-dotenv
