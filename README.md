@@ -56,10 +56,18 @@ All updated **every 30 seconds**, in **real-time**, without refreshing the page!
 
 ## 📂 Project Structure
 
+```bash
 📦 reddit-realtime-dashboard
-┣ 📜 dashboard.py      # Main Dash app (Dashboard layout, Callbacks, MongoDB integration)
-┣ 📜 requirements.txt  # Python dependencies
-┗ 📜 README.md         # Project documentation
+ ┣ 📜 .gitignore                  # Git ignore file for excluding unnecessary files
+ ┣ 📜 README.md                   # Project documentation
+ ┣ 📜 requirements.txt            # Python dependencies (including python-dotenv)
+ ┣ 📜 setup_kafka.sh              # Script to set up Kafka for streaming data
+ ┣ 📜 advanced_spark_processor.py # Spark processor for advanced data handling
+ ┣ 📜 commands.md                 # Instructions for running various commands
+ ┣ 📜 consumerr.py                # Consumer script for fetching data from Kafka
+ ┣ 📜 dashboard.py                # Main dashboard application (Dash)
+ ┣ 📜 producerr.py                # Producer script for sending data to Kafka
+```
 
 ---
 
