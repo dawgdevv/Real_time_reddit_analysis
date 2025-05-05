@@ -139,10 +139,10 @@ Highlighted Posts
 ---
 
 ## 🤝 Contributors
-- Dev Verma
+- Dev Rishi Verma
 - Nishant Raj
 - Kushagra Gupta
-- Harshita Kumawat
+
 
 ---
 
